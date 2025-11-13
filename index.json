@@ -1,0 +1,198 @@
+{
+  "_index": "schools-hubsite-prod",
+  "_type": "_doc",
+  "_id": "3EMp9w6bxm6ePW8SOXrd2s",
+  "_score": null,
+  "_source": {
+    "isSchool": true,
+    "name": "Wilson College",
+    "fullName": "Wilson College",
+    "slug": "wilson-college",
+    "schoolLogo": {
+      "metadata": {
+        "tags": [],
+        "concepts": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "2htm8llflwdx"
+          }
+        },
+        "id": "4cQpd6lCuYe0UHI2A90GFi",
+        "type": "Asset",
+        "createdAt": "2021-11-12T14:33:29.916Z",
+        "updatedAt": "2021-11-12T14:33:29.916Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "revision": 1,
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "Wilson Colored Logo",
+        "description": "",
+        "file": {
+          "url": "//images.ctfassets.net/2htm8llflwdx/4cQpd6lCuYe0UHI2A90GFi/93f75a2faedb1f1a9cdeb62f8838c6b4/Wilson_Colored_Logo.png",
+          "details": {
+            "size": 20992,
+            "image": {
+              "width": 960,
+              "height": 335
+            }
+          },
+          "fileName": "Wilson Colored Logo.png",
+          "contentType": "image/png"
+        }
+      }
+    },
+    "schoolHighlightColor": "#081994",
+    "schoolSafeColor": "#081994",
+    "totalStudents": "2,000 total enrollment",
+    "totalStudentsCount": 2,
+    "internationalStudents": "5.8% international students",
+    "internationalStudentsPercentage": 5.8,
+    "locationName": "Chambersburg, Pennsylvania",
+    "locationPopulation": 150,
+    "locationRegion": "Northeast",
+    "marketoAbbreviation": "WIL",
+    "isSignatureSchool": false,
+    "undergraduateExist": true,
+    "undergraduateApplicationLink": "https://apply.shorelight.com/?school=WIL&level=undergrad&referrer=hubsite",
+    "undergraduateRankings": [
+      "#126 Regional Universities North (tie)",
+      "U.S. News & World Report, 2022"
+    ],
+    "undergraduateDegrees": [
+      {
+        "name": "Undergraduate Degrees",
+        "programs": [
+          { "name": "Accounting", "concentrations": [] },
+          { "name": "Animal Studies", "concentrations": [] },
+          {
+            "name": "Art and Design",
+            "concentrations": ["Art", "Graphic Design", "Web Design"]
+          },
+          {
+            "name": "Biochemistry and Molecular Biology",
+            "concentrations": []
+          },
+          { "name": "Biology", "concentrations": [] },
+          { "name": "Business Management", "concentrations": [] },
+          { "name": "Chemistry", "concentrations": [] },
+          { "name": "Criminal Justice ", "concentrations": [] },
+          {
+            "name": "Early Childhood (Pre-K-4) Education",
+            "concentrations": []
+          },
+          { "name": "English", "concentrations": [] },
+          { "name": "Entrepreneurship", "concentrations": [] },
+          {
+            "name": "Environmental Science",
+            "concentrations": [
+              "Environmental Biology",
+              "Environmental Chemistry",
+              "Environmental GIS",
+              "Environmental Health and Toxicology"
+            ]
+          },
+          { "name": "Equine Studies", "concentrations": [] },
+          { "name": "Equine-Facilitated Therapeutics", "concentrations": [] },
+          { "name": "Esports Management", "concentrations": [] },
+          {
+            "name": "Exercise Science",
+            "concentrations": [
+              "Pre-professional Studies",
+              "Human Performance",
+              "Holistic Health"
+            ]
+          },
+          { "name": "Finance", "concentrations": [] },
+          {
+            "name": "Health and Physical Education (K-12)",
+            "concentrations": []
+          },
+          {
+            "name": "Health Sciences",
+            "concentrations": [
+              "Pre-professional Studies",
+              "Public Health",
+              "Holistic Health"
+            ]
+          },
+          { "name": "Healthcare and Medical Humanities", "concentrations": [] },
+          { "name": "History", "concentrations": [] },
+          { "name": "Liberal Studies", "concentrations": [] },
+          { "name": "Political Science", "concentrations": [] },
+          { "name": "Psychology", "concentrations": [] },
+          { "name": "Sociology", "concentrations": [] },
+          { "name": "Special Education (Pre-K-12)", "concentrations": [] },
+          { "name": "Sport Management", "concentrations": [] },
+          { "name": "Strategic Communications", "concentrations": [] },
+          { "name": "Supply Chain Management", "concentrations": [] },
+          {
+            "name": "Veterinary Nursing ",
+            "concentrations": [
+              "Veterinary Biology",
+              "Veterinary Business Management"
+            ]
+          }
+        ]
+      }
+    ],
+    "undergraduateCost": {
+      "total": 37790,
+      "tuition": 25950,
+      "housing": 5500,
+      "dining": 6340
+    },
+    "undergraduatePromoCard": {
+      "entryName": "Services PROMO - Member Default (Research, Admissions, Enrollment, Career)",
+      "title": "Shorelight Services",
+      "subtitle": "Our services are designed to support international students at every stage of their journey. ",
+      "bulletpoint1": "Research",
+      "bulletpointDetails1": "Find your best-fit program with expert guidance and helpful tools. ",
+      "bulletpoint2": "Admissions",
+      "bulletpointDetails2": "A streamlined admissions process and advisors to help along the way.",
+      "bulletpoint3": "Enrollment",
+      "bulletpointDetails3": "Get help with your F-1 student visa & arrival requirements.",
+      "bulletpoint4": "Career",
+      "bulletpointDetails4": "Develop your professional skills, get an internship, and launch your career.",
+      "promoCardLink": [["Learn More", "/services/"]],
+      "openInNewWindow": true,
+      "hideOnStudentHub": false,
+      "hideOnAgentHub": false
+    },
+    "undergraduateNearestSemesters": [
+      {
+        "title": "Fall 2025",
+        "items": [
+          { "name": "ApplicationDeadline", "date": "2025-06-30T00:00:00.000Z" },
+          { "name": "ClassesBeginDate", "date": "2025-08-28T00:00:00.000Z" }
+        ]
+      },
+      {
+        "title": "Spring 2026",
+        "items": [
+          { "name": "ApplicationDeadline", "date": "2026-10-15T00:00:00.000Z" },
+          { "name": "ClassesBeginDate", "date": "2026-01-27T00:00:00.000Z" }
+        ]
+      }
+    ],
+    "undergraduateDescription": "Wilson College is accredited by the Middle States Commission on Higher Education and has accredited programs in education, veterinary nursing, and nursing.",
+    "undergraduateCurrency": "$",
+    "undergraduateMinGrades": {
+      "GPA": 2.75,
+      "IELTS": 5,
+      "TOEFL": 61
+    }
+  },
+  "sort": [0, "Wilson College"]
+}

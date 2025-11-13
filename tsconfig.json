@@ -1,0 +1,35 @@
+{
+  
+  "compilerOptions": {
+    // File Layout
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    // Environment Settings
+    "target": "es2016",
+    "module": "commonjs",
+    // "moduleResolution": "node",
+    "esModuleInterop": true,
+    // "lib": ["ES2022", "DOM"],
+    // "types": ["node", "express"],
+
+    // Other Outputs
+    // "sourceMap": true,
+    // "declaration": true,
+    // "declarationMap": true,
+
+    // Stricter Typechecking
+    // "noUncheckedIndexedAccess": true,
+    // "exactOptionalPropertyTypes": true,
+
+    // Recommended
+    "strict": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+
+    // Optional cleanups
+    // "isolatedModules": true
+  },
+  // "include": ["src/**/*", "src/app/interfaces/*.d.ts"],
+  // "exclude": ["node_modules", "dist"]
+}
