@@ -38,14 +38,12 @@ const TestPrepSchema = new Schema<ITestPrep>(
       default: "",
     },
 
-    // --- Date Logic ---
     notSureYet: {
       type: Boolean,
       default: false,
     },
     targetTestDate: {
       type: String,
-      // Conditional Requirement: Required ONLY if notSureYet is false
       required: [
         function (this: ITestPrep) {
           return !this.notSureYet;
@@ -54,7 +52,6 @@ const TestPrepSchema = new Schema<ITestPrep>(
       ],
     },
 
-    // --- History Logic ---
     takenBefore: {
       type: String,
       enum: {
@@ -106,6 +103,7 @@ const TestPrepSchema = new Schema<ITestPrep>(
       type: String,
       default: "",
       trim: true,
+      required: false,
     },
   },
   {
@@ -113,13 +111,9 @@ const TestPrepSchema = new Schema<ITestPrep>(
   }
 );
 
-// --- Complex Validation Hook ---
-// We use this for "At least one selected" logic because Mongoose 
-// 'required' works best on single fields, not groups of booleans.
 TestPrepSchema.pre("validate", function (next) {
   const doc = this as ITestPrep;
 
-  // 1. Validate: At least one Test OR 'otherTest' must be provided
   const isTestSelected =
     doc.tests.IELTS ||
     doc.tests.SAT ||
@@ -134,7 +128,6 @@ TestPrepSchema.pre("validate", function (next) {
     );
   }
 
-  // 2. Validate: At least one 'Looking For' option OR 'otherLookingFor'
   const isLookingForSelected =
     doc.lookingFor.fullCourse ||
     doc.lookingFor.specificCoaching ||
